@@ -1,6 +1,6 @@
 const http = require('http');
 
-const hostname = 'mydemo-app.us-east-1.elasticbeanstalk.com';
+const hostname = '54.210.162.84';
 const port = 80;
 
 const server = http.createServer((req, res) => {
