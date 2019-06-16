@@ -10,5 +10,11 @@ phases:
     commands:
       - npm test
 artifacts:
+  type: zip
   files:
-    - '**/*'
+    - README.md
+    - package.json
+    - app.js
+    - .ebextensions/*
+    - node_modules/**/*
+    - public/**/*
