@@ -5,10 +5,7 @@ phases:
         nodejs: 8
   pre_build:
     commands:
-      - npm install
-  build:
-    commands:
-      - npm test
+      - npm install  
 artifacts:
   type: zip
   files:
